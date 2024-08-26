@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <h1>Tic Tac Toe Game!</h1>
+            <h3></h3>
+            <p id="player">Round : X</p>
+        </div>
+        <div class="Card">
+            <div onclick="playGame(event)" class="Boxs" id="1"></div>
+            <div onclick="playGame(event)" class="Boxs" id="2"></div>
+            <div onclick="playGame(event)" class="Boxs" id="3"></div>
+            <div onclick="playGame(event)" class="Boxs" id="4"></div>
+            <div onclick="playGame(event)" class="Boxs" id="5"></div>
+            <div onclick="playGame(event)" class="Boxs" id="6"></div>
+            <div onclick="playGame(event)" class="Boxs" id="7"></div>
+            <div onclick="playGame(event)" class="Boxs" id="8"></div>
+            <div onclick="playGame(event)" class="Boxs" id="9"></div>
+            <div class="CardWin" id="cardWin">
+                <h1 class="Win">Winnn!!</h1>
+                <p class="Win" id="textWin"></p>
+                <div class="btn-Start" onclick="reStart()">Start</div>
+            </div>
+        </div>
+        <div>
+            <div class="btn-Start" onclick="Start()">Start</div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

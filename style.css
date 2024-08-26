@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   background-color: #f2f2f2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.container {
+    width: 500px;
+    height: 570px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Card {
+    display: grid;
+    background-color: #f4a261;
+    padding: 5px;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Boxs {
+    width: 120px;
+    height: 100px;
+    background-color: #e9c46a;
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #e76f51;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.Boxs:hover{
+    background-color: #e2b647c9;
+    transition: all 0.4s;
+}
+
+.header h1 {
+    color: #696969;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+.header p {
+    margin-top: 10px;
+    color: #696969;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+.Win {
+    margin-top: 10px;
+    color: #32cd32;
+}
+
+.btn-Start {
+  margin-top: 10px;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.btn-Start:hover,
+.btn-Start:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.btn-Start:active {
+  opacity: .5;
+}
+
+.CardWin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 95px;
+    box-shadow: 0 0 1px 150px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
